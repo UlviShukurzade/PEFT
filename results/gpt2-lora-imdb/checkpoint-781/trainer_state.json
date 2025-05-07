@@ -1,0 +1,39 @@
+{
+  "best_metric": 0.42581793665885925,
+  "best_model_checkpoint": "./results/gpt2-lora-imdb/checkpoint-781",
+  "epoch": 0.99968,
+  "eval_steps": 500,
+  "global_step": 781,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.64,
+      "learning_rate": 7.34955185659411e-06,
+      "loss": 1.4707,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.82544,
+      "eval_f1": 0.8090988626421697,
+      "eval_loss": 0.42581793665885925,
+      "eval_precision": 0.8926640926640926,
+      "eval_recall": 0.73984,
+      "eval_runtime": 541.3448,
+      "eval_samples_per_second": 46.181,
+      "eval_steps_per_second": 5.773,
+      "step": 781
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 781,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 6592711800913920.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
